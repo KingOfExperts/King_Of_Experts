@@ -15,10 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
     particleLayer.appendChild(dot);
   }
 
+
   const backToTop = document.querySelector('.back-to-top');
 
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 2800) {
       backToTop.style.display = 'grid';
     } else {
       backToTop.style.display = 'none';
@@ -28,5 +29,4 @@ document.addEventListener('DOMContentLoaded', () => {
   backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
-
 });
