@@ -104,7 +104,7 @@
 }
 .instagram-float{
   position:fixed;
-  bottom:199px;
+  bottom: 75px;
   right:10px;
 background:transparent;
   color:#00131a;
@@ -119,9 +119,9 @@ background:transparent;
 }
 .twitter-float{
   position:fixed;
-  bottom:137px;
+  bottom:199px;
   right:10px;
-background: transparent;
+background:transparent;
   color:#00131a;
   width:54px;
   height:54px;
@@ -155,7 +155,7 @@ background: transparent;
         width: 45px;  /* Reduced width for mobile */
         height: 45px; /* Reduced height for mobile */
         font-size: 20px; /* Reduced icon size for mobile */
-        bottom: 174px; /* Adjust bottom position if needed */
+        bottom: 112px; /* Adjust bottom position if needed */
         right: 5px; /* Adjust right position if needed */
     }
 }
@@ -164,14 +164,14 @@ background: transparent;
         width: 45px;  /* Reduced width for mobile */
         height: 45px; /* Reduced height for mobile */
         font-size: 20px; /* Reduced icon size for mobile */
-        bottom: 236px; /* Adjust bottom position if needed */
+        bottom: 174px; /* Adjust bottom position if needed */
         right: 5px; /* Adjust right position if needed */
     }
 }
+
     /* Footer */
     footer{padding:26px 20px 60px; border-top:1px solid rgba(255,255,255,.06); background:rgba(255,255,255,.02)}
     .foot{max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
     .foot small{color:var(--muted)}
     .muted{color:var(--muted)} .pill{padding:8px 12px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1)}
-
   
