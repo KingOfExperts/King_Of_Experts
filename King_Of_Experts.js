@@ -30,3 +30,24 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
+
+
+const form = document.querySelector("form");
+const successMsg = document.getElementById("form-success");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const response = await fetch(form.action, {
+    method: "POST",
+    body: formData,
+    headers: { "Accept": "application/json" },
+  });
+
+  if (response.ok) {
+    successMsg.style.display = "block";
+    form.reset();
+  } else {
+    alert("Oops! There was a problem submitting your form.");
+  }
+});
