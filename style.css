@@ -17,7 +17,7 @@
     @keyframes float{0%{ transform: translateY(110vh) scale(.8); opacity:0 } 10%{opacity:1} 100%{ transform: translateY(-10vh) scale(1.3); opacity:.2 }}
 
     /* Header / Nav */
-    header{position:sticky; top:0; z-index:50; backdrop-filter: blur(14px); background: rgba(11,15,20,.55); border-bottom:1px solid rgba(255,255,255,.06)}
+    header{position:sticky; top:0; z-index:50; backdrop-filter: blur(20px); background: rgba(11,15,20,.55); border-bottom:1px solid rgba(255,255,255,.06)}
     .nav{max-width:100%; margin:0 auto; display:flex; align-items:center; justify-content:center; padding:12px 20px}
     
     /* Hero */
@@ -89,12 +89,12 @@
 
 .whatsapp-float{
   position:fixed;
-  bottom:50px;
+  bottom:35px;
   right:10px;
   background:transparent;
   color:#00131a;
-  width:54px;
-  height:54px;
+  width:50px;
+  height:50px;
   border-radius:50%;
   display:grid;
   place-items:center;
@@ -104,12 +104,12 @@
 }
 .instagram-float{
   position:fixed;
-  bottom: 122px;
+  bottom: 100px;
   right:10px;
 background:transparent;
   color:#00131a;
-  width:54px;
-  height:54px;
+  width:50px;
+  height:50px;
   border-radius:50%;
   display:grid;
   place-items:center;
@@ -120,12 +120,12 @@ background:transparent;
 
 .twitter-float{
   position:fixed;
-  bottom:194px;
+  bottom:165px;
   right:10px;
 background: transparent;
   color:#00131a;
-  width:54px;
-  height:54px;
+  width:50px;
+  height:50px;
   border-radius:50%;
   display:grid;
   place-items:center;
@@ -147,7 +147,7 @@ background: transparent;
         width: 45px;  /* Reduced width for mobile */
         height: 45px; /* Reduced height for mobile */
         font-size: 20px; /* Reduced icon size for mobile */
-        bottom: 50px; /* Adjust bottom position if needed */
+        bottom: 35px; /* Adjust bottom position if needed */
         right: 5px; /* Adjust right position if needed */
     }
 }
@@ -156,7 +156,7 @@ background: transparent;
         width: 45px;  /* Reduced width for mobile */
         height: 45px; /* Reduced height for mobile */
         font-size: 20px; /* Reduced icon size for mobile */
-        bottom: 112px; /* Adjust bottom position if needed */
+        bottom: 90px; /* Adjust bottom position if needed */
         right: 5px; /* Adjust right position if needed */
     }
 }
@@ -165,7 +165,7 @@ background: transparent;
         width: 45px;  /* Reduced width for mobile */
         height: 45px; /* Reduced height for mobile */
         font-size: 20px; /* Reduced icon size for mobile */
-        bottom: 174px; /* Adjust bottom position if needed */
+        bottom: 155px; /* Adjust bottom position if needed */
         right: 5px; /* Adjust right position if needed */
     }
 }
